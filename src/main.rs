@@ -6,6 +6,6 @@ use bot::Board;
 
 fn main() {
     let mut board = Board::default();
-    println!("{}", board.perft(6));
+    println!("{}", board.perft(5));
 }
 
